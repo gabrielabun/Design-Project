@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+    <body class="body">
+        <title>Gabe's Dealership</title>
+        <header class="hea">Gabe's Dealership</header>
+        <link rel="stylesheet" href="styles.css">
+        <!-- This is for my navbar -->
+        <nav class="navbar"> 
+            <ul>
+                <li class="na"><a href="index.html">Home</a></li>
+                <li class="na"><a href="about.html">About</a></li>
+                <li class="na"><a href="history.html">History</a></li>
+                <li class="na"><a href="contact.html">Contact</a></li>
+            </ul>
+        
+        </nav>
+        <nav>
+            <ul class="na"><a href="Login.html">SignUp/Login</a></ul>
+        </nav>
+        <!-- This is for my create an account form -->
+        <H1 class="title">SignUp</H1>
+
+        <p class="logpg">Create an account?</p>
+
+        <form action="action_page.php" method="post">
+          
+            <div class="container">
+              <label for="uname"><b>Username</b></label>
+              <input type="text" placeholder="Enter Username" name="uname" required>
+          <br><br>
+              <label for="psw"><b>Password</b></label>
+              <input type="password" placeholder="Enter Password" name="psw" required>
+          <br><br>
+              <button type="submit">Create an account</button>
+              <label>
+                <input type="checkbox" checked="checked" name="remember"> Remember me
+              </label>
+            </div>
+          <br>
+            <div class="container">
+              <button type="button" class="cancelbtn">Cancel</button>
+              <br><br><br><br>
+              <span class="psw">Forgot <a href="#">password?</a></span>
+            </div>
+          </form>
+
+
+    </body>
+</html>

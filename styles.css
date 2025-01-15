@@ -1,0 +1,298 @@
+/*title code*/
+.title{
+    text-align: center;
+    font-size: 70px;
+    color: black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-decoration: underline;
+    padding: 10px;
+}
+
+.body{
+    background-color: orange;
+}
+
+/*Navbar code*/
+.navbar ul{
+    list-style-type: none;
+    background-color: white;
+    padding: 0px;
+    margin: 0px;
+    overflow: hidden;
+
+}
+
+.navbar a{
+    color: black;
+    text-decoration: none;
+    padding: 15px;
+    display: block;
+    text-align: center;
+
+}
+
+.te{
+  font-size: 30px;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.na{
+    font-size: 25px;
+    text-align: left;
+}
+
+.navbar a:hover{
+    text-decoration: underline;
+}
+
+.navbar li{
+    float: left;
+}
+
+.abt{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 100px;
+    text-align: center;
+}
+
+.p1{
+    font-size: 29px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    background-color: #474e5d;
+    font-family: Helvetica, sans-serif;
+  }
+/*This is for the title in my home page*/
+.ho{
+text-align: center;
+font-size: 90px;
+text-decoration: underline;
+}
+/*this is my old fashioned car image on my home page*/
+.blp{
+  border: white 10px solid;
+  border-radius: 50px;
+  position: relative;
+  right: 450px;
+}
+
+/*this is for the postioning of my bmw car image*/
+#carb{
+  position: relative;
+  left: 450px;
+  border: white 10px solid;
+  border-radius: 50px;
+}
+
+/*text at the top of my home page*/
+.hom{
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 50px;
+}
+/*this is for the "create an account?" title on my sign up page*/
+.logpg{
+  text-align: center;
+  font-size: 35px;
+  text-decoration: underline;
+}
+
+* {box-sizing: border-box}
+
+  input[type=text], input[type=password] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+}
+
+input[type=text]:focus, input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+hr {
+  border: 1px solid #f1f1f1;
+  margin-bottom: 25px;
+}
+
+button {
+  background-color: #04AA6D;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+
+button:hover {
+  opacity:1;
+  text-decoration: underline;
+}
+
+/* Extra styles for the cancel button */
+.cancelbtn {
+  padding: 14px 20px;
+  background-color: #f44336;
+}
+
+.cancelbtn, .signupbtn {
+  float: left;
+  width: 50%;
+}
+
+.container {
+  padding: 16px;
+}
+
+/* Clear floats */
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+/*cancel button*/
+@media screen and (max-width: 300px) {
+  .cancelbtn, .signupbtn {
+    width: 100%;
+  }
+}
+/*this is the paragraph on the history page*/
+.his{
+  font-size: 23px;
+  font-family: 'Times New Roman', Times, serif;
+}
+/*this is for the title on top of my nav bar*/
+.hea{
+  background-color: grey;
+  text-align: center;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 75px;
+  font-weight: bold;
+}
+/*this is for the car timelie history image on my history page*/
+.hisp{
+  border: white 10px solid;
+  border-radius: 100px;
+}
+/*contact us form*/
+input[type=text], select, textarea {
+  width: 100%; 
+  padding: 12px;
+  border: 1px solid #ccc; /* Gray border */
+  border-radius: 4px; /* Rounded borders */
+  box-sizing: border-box; 
+  margin-top: 6px;
+  margin-bottom: 16px; 
+  resize: vertical 
+}
+
+
+input[type=submit] {
+  background-color: #04AA6D;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+
+@keyframes fadeup {
+  0% {
+      transform: translateY(10%);
+      opacity: 0;
+  }
+  100% {
+      transform: translateY(0);
+      opacity: 1;
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+.fadeupanim {
+  animation-name: fadeup;
+  animation-timing-function: cubic-bezier(0.25, 0.46, 0.45, 0.94);
+  animation-duration: 1s;
+  animation-fill-mode: both;
+}
+}
+.fadeup {
+  transform: translateY(10%);
+  opacity: 0;
+}
+
+
+
+.delay1 {
+  animation-delay: 0.3s;
+}
+.delay2 {
+  animation-delay: 0.6s;
+}
+.delay3 {
+  animation-delay: 0.9s;
+}
+.delay4 {
+  animation-delay: 1.2s;
+}
+
+/*this is for my car price table*/
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+}
+
+h1 {
+  font-size: 24px;
+  margin-top: 20px;
+}
+
+.car-table-container {
+  width: 80%;
+  margin: 20px auto;
+}
+
+.car-prices-table {
+  width: 100%;
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+
+.car-prices-table th, .car-prices-table td {
+  padding: 10px;
+  border: 1px solid black;
+}
+
+.car-prices-table th {
+  background-color: #f0f0f0;
+}
+
+/*this is for my road imaage o my about us page*/
+#rfa{
+  border: white 10px solid;
+  border-radius: 50px;
+  position: relative;
+  right: 20px;
+}
